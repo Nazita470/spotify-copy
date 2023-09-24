@@ -1,0 +1,74 @@
+main{
+    display: grid;
+    place-items: center;
+    .contenedor{
+        //width: 70%;
+        overflow: hidden;
+        .carta{
+            display: flex;
+            margin-bottom: 100px;
+            .contenedor-vasito, .img-bolsa{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+            }
+            .contenedor-h1{
+                width: 60%;
+                background-color: #1e3932;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                strong{
+                    width: 70%;
+                    height: auto;
+                    color: white;
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 3.125rem;
+                    line-height: 1.2;
+                }
+            }
+
+            .img-bolsa{
+                margin: 100px 0px;
+            }
+
+            .texto{
+               //margin: 100px 0px;
+               //height: 100%;
+               width: 50%; 
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               color: #00754a;
+               h2{
+                width: 60%;
+                font-size: 3.125rem;
+                line-height: 1.2;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 30px;
+               }
+               h3{
+                font-size: 1.188rem;
+                margin-bottom: 30px;
+               }
+               a{
+                 color: #00754a;
+                 border: 1px solid #00754a;
+                 padding: 3px 7px;
+                 border-radius: 30px;
+                 font-weight: 700;
+               }
+            }
+        }
+
+    }
+}
+
+.bg-verdeClaro{
+    background-color: #d4e9e2;
+}
+
+//color letra
